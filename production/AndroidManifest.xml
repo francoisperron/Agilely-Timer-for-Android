@@ -15,5 +15,5 @@
         <activity android:name=".activities.TimeboxStartActivity" android:screenOrientation="portrait"/>
         <activity android:name=".activities.BaseMenuActivity"/>
     </application>
-    <uses-sdk android:minSdkVersion="3" />
+    <uses-sdk android:minSdkVersion="4" />
 </manifest>
