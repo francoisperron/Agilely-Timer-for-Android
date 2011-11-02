@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/standup"
+          android:icon="@drawable/dailystandup"
+          android:title="@string/dailystandup_name" />
+    <item android:id="@+id/timebox"
+          android:icon="@drawable/timebox"
+          android:title="@string/timebox_name" />
+</menu>

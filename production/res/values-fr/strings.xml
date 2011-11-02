@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_launcher">_agilely Timer</string>
+    <string name="app_name_standup">Mêlée Quotidienne</string>
+    <string name="app_name_standup_inprogress">Mêlée Quotidienne en cours ...</string>
+    <string name="app_name_timebox_inprogress">Boîte de Temps en cours ...</string>
+    <string name="app_name_timebox">Boîte de Temps</string>
+    <string name="start_label">Démarrer</string>
+    <string name="minutes_label">mins</string>
+    <string name="members_label">membres</string>
+    <string name="countdown_members_caption">Membre</string>
+    <string name="total_time_remaining">Temps restant</string>
+    <string name="end_meeting_button">Arrêter</string>
+    <string name="end_timebox_button">Fin de la boîte de temps</string>
+    <string name="pyxis_website_uri">http://agilely.pyxis-tech.com/</string>
+    <string name="end_member_button">J\'ai terminé</string>
+    <string name="open_discussion">Discussions ouvertes</string>
+    <string name="dailystandup_name">Mêlée Quotidienne</string>
+    <string name="timebox_name">Boîte de Temps</string>
+    <string name="hints">Focus! Notez les commentaires hors-sujet|Debout|Démarrez à l\'heure|Ayez un ordre du jour|Pas
+        de
+        cellulaires, pas d\'exceptions|Envoyez des notes ASAP
+    </string>
+</resources>

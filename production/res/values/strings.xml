@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_launcher">_agilely Timer</string>
+    <string name="app_name_standup">Daily Standup</string>
+    <string name="app_name_standup_inprogress">Daily Standup in progress ...</string>
+    <string name="app_name_timebox_inprogress">Timebox in progress ...</string>
+    <string name="app_name_timebox">Timebox</string>
+    <string name="start_label">Start</string>
+    <string name="minutes_label">mins</string>
+    <string name="countdown_members_caption">Member</string>
+    <string name="members_label">members</string>
+    <string name="total_time_remaining">Total time remaining</string>
+    <string name="end_meeting_button">End meeting</string>
+    <string name="end_timebox_button">End timebox</string>
+    <string name="pyxis_website_uri">http://agilely.pyxis-tech.com/</string>
+    <string name="end_member_button">I\'m done</string>
+    <string name="open_discussion">Open Discussions</string>
+    <string name="dailystandup_name">Daily Standup</string>
+    <string name="timebox_name">Timebox</string>
+    <string name="hints">Focus! Note off-topic comments|Stand up|Start on time|Have a goal based agenda|No phones, no
+        exceptions|Send notes ASAP
+    </string>
+</resources>

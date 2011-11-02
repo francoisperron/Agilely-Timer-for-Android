@@ -1,0 +1,23 @@
+###### temp files
+*.*~
+
+###### out
+out/
+
+##### auto generated files
+gen/
+
+##### IntelliJ dynamic files
+.idea/workspace.xml
+.idea/misc.xml
+.idea/inspectionProfiles/
+
+##### Generated APK
+# androidAgilelyTimer.apk
+
+##### key
+agilelyTimer.key
+
+##### android sdk location
+##### regenerate using android update project -p .
+local.properties

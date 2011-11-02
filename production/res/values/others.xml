@@ -1,0 +1,4 @@
+<resources>
+    <string name="countdown_value">countdownInMinutes</string>
+    <string name="members_value">membersNumber</string>
+</resources>

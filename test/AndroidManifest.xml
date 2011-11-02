@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- package name must be unique so suffix with "tests" so package loader doesn't ignore us -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pyxis.androidAgilelyTimer.tests"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <!-- We add an application tag here just so that we can indicate that
+         this package needs to link against the android.test library,
+         which is needed when building test cases. -->
+    <application>
+        <uses-library android:name="android.test.runner" />
+        <activity android:name="com.pyxis.androidAgilelyTimer.activities.BaseMenuActivityTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <!--
+    This declares that this application uses the instrumentation test runner targeting
+    the package of com.pyxis.androidAgilelyTimer.  To run the tests use the command:
+    "adb shell am instrument -w com.pyxis.androidAgilelyTimer.tests/android.test.InstrumentationTestRunner"
+    -->
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.pyxis.androidAgilelyTimer"
+                     android:label="Tests for .activities.TimeboxStartActivity"/>
+</manifest>
