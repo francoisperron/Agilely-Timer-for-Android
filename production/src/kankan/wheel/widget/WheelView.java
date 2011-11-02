@@ -386,18 +386,20 @@ public class WheelView extends View {
 	 * Initializes resources
 	 */
 	private void initResourcesIfNecessary() {
-		if (itemsPaint == null) {
+        float density = getResources().getDisplayMetrics().density;
+
+        if (itemsPaint == null) {
 			itemsPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG
 					| Paint.FAKE_BOLD_TEXT_FLAG);
-			//itemsPaint.density = getResources().getDisplayMetrics().density;
-			itemsPaint.setTextSize(TEXT_SIZE);
+			itemsPaint.density = density;
+			itemsPaint.setTextSize(TEXT_SIZE * density);
 		}
 
 		if (valuePaint == null) {
 			valuePaint = new TextPaint(Paint.ANTI_ALIAS_FLAG
 					| Paint.FAKE_BOLD_TEXT_FLAG | Paint.DITHER_FLAG);
-			//valuePaint.density = getResources().getDisplayMetrics().density;
-			valuePaint.setTextSize(TEXT_SIZE);
+			valuePaint.density = density;
+			valuePaint.setTextSize(TEXT_SIZE * density);
 			valuePaint.setShadowLayer(0.1f, 0, 0.1f, 0xFFC0C0C0);
 		}
 
